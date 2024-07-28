@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Bilal-Developer Protfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Bilal's Protfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact Me </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first">
+        <div class="leftSection">
+          Hi, My Name is <span class="purple"> Bilal </span>
+          <div>and I am a</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection"><img src="./bgg.png" alt="" /></div>
+      </section>
+      <hr />
+      <section class="second">
+        <span class="greayText">What I have dobe so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="imageTop" src="./html.png" alt="" />
+            <div class="verticalTitle">HTML Developer(2019-2020)</div>
+            <div class="verticalText">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
+              minima pariatur accusantium qui veniam! Iste magnam ab commodi
+              repudiandae. Esse quaerat culpa quisquam nesciunt beatae
+              consectetur eaque, alias quidem magnam?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="imageTop" src="./css.png" alt="" />
+            <div class="verticalTitle">CSS Developer(2020-2021)</div>
+            <div class="verticalText">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
+              minima pariatur accusantium qui veniam! Iste magnam ab commodi
+              repudiandae. Esse quaerat culpa quisquam nesciunt beatae
+              consectetur eaque, alias quidem magnam?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="imageTop" src="./js.png" alt="" />
+            <div class="verticalTitle">JS Developer(2021-2022)</div>
+            <div class="verticalText">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
+              minima pariatur accusantium qui veniam! Iste magnam ab commodi
+              repudiandae. Esse quaerat culpa quisquam nesciunt beatae
+              consectetur eaque, alias quidem magnam?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="imageTop" src="./html.png" alt="" />
+            <div class="verticalTitle">HTML Developer(2022-2023)</div>
+            <div class="verticalText">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
+              minima pariatur accusantium qui veniam! Iste magnam ab commodi
+              repudiandae. Esse quaerat culpa quisquam nesciunt beatae
+              consectetur eaque, alias quidem magnam?
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="third">
+        <span class="greayText">A small demonstration of my skills</span>
+        <h1>Calculator</h1>
+        <table class="calculator">
+          <tr>
+            <td colspan="3">
+              <input class="display-box" type="text" id="result" disabled />
+            </td>
+            <td>
+              <input type="button" value="C" onclick="clearScreen()" id="btn" />
+            </td>
+          </tr>
+          <tr>
+            <td><input type="button" value="1" onclick="display('1')" /></td>
+            <td><input type="button" value="2" onclick="display('2')" /></td>
+            <td><input type="button" value="3" onclick="display('3')" /></td>
+            <td><input type="button" value="/" onclick="display('/')" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="4" onclick="display('4')" /></td>
+            <td><input type="button" value="5" onclick="display('5')" /></td>
+            <td><input type="button" value="6" onclick="display('6')" /></td>
+            <td><input type="button" value="-" onclick="display('-')" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="7" onclick="display('7')" /></td>
+            <td><input type="button" value="8" onclick="display('8')" /></td>
+            <td><input type="button" value="9" onclick="display('9')" /></td>
+            <td><input type="button" value="+" onclick="display('+')" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="." onclick="display('.')" /></td>
+            <td><input type="button" value="0" onclick="display('0')" /></td>
+            <td>
+              <input type="button" value="=" onclick="calculate()" id="btn" />
+            </td>
+            <td><input type="button" value="*" onclick="display('*')" /></td>
+          </tr>
+        </table>
+      </section>
+      <hr />
+      <div class="titlez">
+        <span class="greayText">Some information about My self</span>
+        <h1>About Me</h1>
+      </div>
+      <section class="fourth">
+        <div class="leftSection1"><img src="./img4.jpeg" alt="" /></div>
+        <div class="rightSection1">
+          Hi, I am Muhammmad Bilal
+          <div>
+            I am A Frontend Web Developer I study in PMAS University Doing
+            Becholers in Computer Science I am in 5th semester Being a web
+            developer excite me alot to design to make new things to do changes
+            in think I always had that curious mind I always think when I see a
+            website what is the algorithm behind it when i found it really
+            excite me i tried a couple of website i made some web application
+            like some games and protfolios
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-first">Bilal's Developer Protfolio</div>
+      <div class="footer-second">Instagram</div>
+      <div class="footer-third">Facebook</div>
+      <div class="footer-fourth">Twitter</div>
+    </footer>
+    <script src="./SCRIPT.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./SCRIPT.js"></script>
+  </body>
+</html>

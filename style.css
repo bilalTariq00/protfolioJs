@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(1, 1, 32);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(3, 3, 40);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(111, 95, 233);
+  font-size: 1.09rem;
+}
+.left {
+  font-size: 1.5rem;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+.first > div {
+  width: 30%;
+}
+.leftSection {
+  font-size: 2.6rem;
+  margin: 70px 0;
+}
+.rightSection img {
+  width: 93%;
+}
+.purple {
+  color: blueviolet;
+}
+.greayText {
+  color: gray;
+}
+#element {
+  color: blueviolet;
+}
+.second {
+  max-width: 80vw;
+  margin: auto;
+  height: 77vh;
+}
+.second .box {
+  width: 80vw;
+  height: 1.5px;
+  background: white;
+  margin: 79px 0;
+  display: flex;
+}
+.second .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 130px;
+}
+.imageTop {
+  width: 23px;
+  position: relative;
+  top: -27px;
+  left: -10px;
+}
+.verticalTitle {
+  position: relative;
+  top: 75px;
+  left: -10px;
+  width: 150px;
+  font-size: 14px;
+}
+.verticalText {
+  position: relative;
+  top: 85px;
+  color: gray;
+  width: 156px;
+  left: -10px;
+  font-size: 9px;
+}
+main hr {
+  margin: 50px 84px;
+  background: #2f0c50;
+  border: 0;
+  height: 1px;
+}
+.third {
+  max-width: 80vw;
+  margin: auto;
+  height: 77vh;
+}
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+.calculator {
+  padding: 10px;
+  border-radius: 1em;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  background-color: #191b28;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+  font-family: "Orbitron", sans-serif;
+  background-color: #dcdbe1;
+  border: solid black 0.5px;
+  color: black;
+  border-radius: 5px;
+  width: 100%;
+  height: 65%;
+  padding: auto;
+}
+
+#btn {
+  background-color: #fb0066;
+}
+#result {
+  font-size: 22px;
+}
+
+input[type="button"] {
+  font-family: "Orbitron", sans-serif;
+  background-color: #64278f;
+  color: white;
+  border: solid black 0.5px;
+  width: 90%;
+  border-radius: 30px;
+  height: 60%;
+  outline: none;
+  font-size: 22px;
+}
+
+input:active[type="button"] {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+.fourth {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.fourth > div {
+  width: 30%;
+}
+.leftSection1 img {
+  width: 78%;
+}
+
+footer {
+  background-color: #0c0116;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.titlez {
+  margin: 0 78px;
+}
+.rightSection1 {
+  margin: 30px 0;
+}
